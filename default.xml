@@ -3,11 +3,11 @@
     <remote name="aosp"
             fetch="https://android.googlesource.com"
             review="android-review.googlesource.com"
-            revision="refs/tags/android-7.1.2_r36" />
+            revision="refs/tags/android-8.1.0_r36" />
 
     <remote name="los"
             fetch="https://github.com/LineageOS"
-            revision="refs/heads/cm-14.1" />
+            revision="refs/heads/lineage-15.1" />
 
     <!-- Uses ubports gerrit server since halium does not have one yet -->
     <remote name="hal"
@@ -17,7 +17,7 @@
 
     <remote name="them"
             fetch="https://github.com/TheMuppets"
-            revision="refs/heads/cm-14.1" />
+            revision="refs/heads/lineage-15.1" />
 
     <default remote="aosp"
              sync-j="8"
